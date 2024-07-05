@@ -1,6 +1,7 @@
 /*
 从键盘输入一个日期，计算距离年末还有多少天
 */
+
 #include<stdio.h>
 int main()
 {
@@ -39,3 +40,35 @@ int main()
         printf("输入错误\n");
     }
 }
+
+//偷学别人的↓↓↓//
+// #include<stdio.h>
+// int main()
+// {
+//     int year,month,day;
+//     int rema_days=0;
+//     printf("请输入年月日(xxxx xx xx)：\n");
+//     scanf("%d%d%d",&year,&month,&day);
+//     switch (month)
+//     {
+//     case 1:rema_days+=31;
+//     case 2:rema_days+=28;
+//         if((year%4==0 && year%100!=0) || (year%400==0))
+//         {
+//             rema_days+=1;
+//         }
+//     case 3:rema_days+=31;
+//     case 4:rema_days+=30;
+//     case 5:rema_days+=31;
+//     case 6:rema_days+=30;
+//     case 7:rema_days+=31;
+//     case 8:rema_days+=31;
+//     case 9:rema_days+=30;  
+//     case 10:rema_days+=31;
+//     case 11:rema_days+=30;
+//     case 12:rema_days+=31;
+//     default:printf("输入错误\n");break;
+//     }
+//     rema_days-=day;
+//     printf("距离年末还有%d天\n",rema_days);
+// }
