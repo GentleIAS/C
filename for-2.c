@@ -1,6 +1,7 @@
 /*
 从键盘输入一个整数，判断该数是否为素数
 */
+
 #include<stdio.h>
 int main()
 {
