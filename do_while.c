@@ -1,6 +1,7 @@
 /*
 从键盘输入一个整数n，计算n的阶乘（使用do while）
 */
+
 #include<stdio.h>
 int main()
 {
