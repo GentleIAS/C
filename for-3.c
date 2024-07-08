@@ -1,6 +1,7 @@
 /*
 从键盘输入两个整数，求出这两个整数的最大公约数和最小公倍数
 */
+
 #include<stdio.h>
 int main()
 {
@@ -13,7 +14,7 @@ int main()
         a=b;
         b=t;
     }
-    for(int i=b;i>0;i--)
+    for(int i=a;i>0;i--)
     {
         if(a%i==0&&b%i==0)
         {
